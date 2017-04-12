@@ -6,4 +6,4 @@ RUN apt-get -y install python-pip
 RUN pip install --upgrade pip
 RUN pip install flask
 
-EXPOSE 80
+EXPOSE 5000
